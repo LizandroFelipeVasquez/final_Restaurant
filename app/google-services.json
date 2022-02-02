@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "814717371108",
+    "project_id": "aplicaciondonluxor",
+    "storage_bucket": "aplicaciondonluxor.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:814717371108:android:669f4ac692f4ec84d3e2f1",
+        "android_client_info": {
+          "package_name": "com.example.aplication_don_luxor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "814717371108-qfd3qh7ivudl8p5q0l11d2bp78d4aeea.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2PIhqt9Y2q-RqkkZm6vqHB7zTzwxn_5Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "814717371108-qfd3qh7ivudl8p5q0l11d2bp78d4aeea.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginFragment"
+    android:background="@drawable/fondo_login">
+
+    <ImageView
+        android:id="@+id/logo_imagen"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25sp"
+        android:layout_marginBottom="30dp"
+        app:srcCompat="@drawable/logo_luxor" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/username_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:hint="@string/usuario"
+        android:layout_below="@+id/logo_imagen"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/username_text_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_person_24"
+            android:drawablePadding="25dp"
+            android:inputType="text"
+            android:maxLines="10" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/password_text_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username_edit_text"
+        android:layout_margin="4dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="4dp"
+        android:hint="@string/contraseña">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/password_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/ic_baseline_info_24"
+            android:drawablePadding="25dp"
+            android:inputType="text"
+            android:maxLines="10" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/button_Login_Get"
+        android:layout_width="280dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/password_text_input"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/Button_login"
+        app:backgroundTint="@color/gold"
+        app:cornerRadius="19dp" />
+
+    <Button
+        android:id="@+id/Login_text"
+        android:layout_width="280dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/button_Login_Get"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Registrar"
+        app:backgroundTint="@color/gold"
+        app:cornerRadius="19dp" />
+
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/progress_bar_loading"
+        android:indeterminate="true"
+        android:indeterminateDrawable="@drawable/rotare_progress"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/image_gmail"
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:layout_below="@+id/Login_text"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="89dp"
+        android:layout_marginBottom="1dp"
+        android:src="@drawable/gmail" />
+
+    <ImageView
+        android:id="@+id/image_facebook"
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:layout_below="@+id/Login_text"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="89dp"
+        android:src="@drawable/facebook" />
+
+    <ImageView
+        android:id="@+id/image_ubicacion"
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:layout_below="@+id/Login_text"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="89dp"
+        android:src="@drawable/logo_ubicacion" />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/progress_bar_loadinginLogin"
+        android:indeterminate="true"
+        android:indeterminateDrawable="@drawable/rotare_progress"
+        android:visibility="gone"/>
+
+
+
+</RelativeLayout>
+
+

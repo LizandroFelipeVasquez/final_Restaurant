@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Aplication_Don_Luxor</string>
+    <string name="Banner_Register_User">Datos Personales</string>
+    <string name="usuario">Usuario</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="Button_login">Ingresar</string>
+    <string name="Button_register">Registrar</string>
+    <string name="Register_User">Correo</string>
+    <string name="Register_name">Nombre</string>
+    <string name="Register_Number">Numero</string>
+    <string name="Register_Direction">Direccion</string>
+    <string name="register_password_hint">Contraseña</string>
+    <string name="register_confirm_password_hint"> Confirmar contraseña</string>
+    <string name="button_login_get">Ingresar</string>
+    <string name="message_login_register">Tienes cuenta creada? Click aqui</string>
+    <string name="information">Información</string>
+    <string name="gmail_Don_Luxor">CORREO: Don_Luxor@Gmail.com</string>
+    <string name="phone_Don_Luxor">TELEFONO: 984598678</string>
+    <string name="ubication_Don_Luxor">UBICACION: Flora Tristan, La molina 15024 </string>
+</resources>
